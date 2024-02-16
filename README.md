@@ -12,9 +12,9 @@
 
 ## Overview and Requirements 
 
-This project utilizes the knowledge gained from lectures 1 to 6, covering various topics including HTML, CSS, JavaScript, Ajax, jQuery, and API integration. It begins with a basic HTML file showcasing personal information, followed by the implementation of functionalities such as email display toggling, analog and digital clock display, and GIF viewing, which were previously developed in Lab2. Subsequently, the project integrates APIs like JokeAPI and Weatherbit API. Moreover, JavaScript is employed to enable cookies, ensuring that users receive a welcome message on their first visit and a "Welcome back" message with the timestamp of their last visit upon returning to the page.
+This project utilizes the knowledge gained from lectures 1 to 6, covering various topics including HTML, CSS, JavaScript, Ajax, jQuery, and API integration. It begins with a basic HTML file showcasing personal information, followed by the implementation of functionalities such as email display toggling, analog and digital clock display, and GIF viewing, which were previously developed in Lab2. Subsequently, the project integrates APIs like JokeAPI and Weatherbit API. Moreover, JavaScript is employed to enable cookies, ensuring that users receive a welcome message on their first visit and a "Welcome back" message with the timestamp of their last visit upon returning to the page.I am attaching the link for website [https://saigeethikaakkineni.github.io/](https://saigeethikaakkineni.github.io/)
 
-I have uploaded the code in my private repository [https://github.com/SaiGeethikaAkkineni/SaiGeethikaAkkineni.github.io](https://github.com/SaiGeethikaAkkineni/SaiGeethikaAkkineni.github.io)
+I have uploaded the code in my public repository [https://github.com/SaiGeethikaAkkineni/SaiGeethikaAkkineni.github.io](https://github.com/SaiGeethikaAkkineni/SaiGeethikaAkkineni.github.io)
 
 
 ### Task 1: Setup github.io
@@ -51,12 +51,12 @@ To enhance user experience, cookies were enabled within the website. Upon initia
 
 
 
-![Welcome alert to the website](/img/SS1.png)
+![Welcome alert to the website](img/SS1.png)
 
-![Welcome Back](/img/SS2.png)
+![Welcome Back](img/SS2.png)
 
 Furthermore, I incorporated a GIF into my website utilizing React.js. The button offers two options: show or hide the GIF. Upon clicking "show GIF," the GIF is displayed within a frame. Subsequently, users are provided with a "hide GIF" button, enabling them to minimize the GIF screen.
 
-![Show Gif](/img/SS3.png)
+![Show Gif](img/SS3.png)
 
-![Hide Gif](/img/SS4.png)
+![Hide Gif](img/SS4.png)
