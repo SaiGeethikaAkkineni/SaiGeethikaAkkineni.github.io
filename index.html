@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!--reactdom library-->
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+</head>
+  <style>
+    #giff{
+      color: white;
+      font-size: small;
+    }
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: black;
+      color: white;
+      padding: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button> -->
+      <a class="navbar-brand" href="#">Geethika's Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <!-- <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul> -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><div id="button"></div>
+
+         
+             <script type="text/babel">
+        function GifComponent() {
+            const [showGif, setShowGif] = React.useState(false);
+
+            return (
+                <div>
+                    <h1 id="giff">GIF Integration with React</h1>
+                    <button onClick={() => setShowGif(!showGif)}>
+                        {showGif ? "Hide GIF" : "Show GIF"}
+                    </button>
+                    {showGif && (
+                        <img src="https://media.giphy.com/media/ASd0Ukj0y3qMM/giphy.gif" alt="GIF" />
+                    )}
+                </div>
+            );
+        }
+
+        ReactDOM.render(<GifComponent />, document.getElementById("button"));
+          </script></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+  	<script type="text/babel">
+    <img src="headshot.jpg" class="img-responsive" style="width:10%" alt="image">
+    <h2 aria-label="center">Sai Geethika Akkineni</h2>
+    <div class="email">
+      <div id="email"   onclick="showhideEmail()">Show my email</div>
+      <div>
+        <h4><p  id="contact-number"> +1(513)4886621</p></h4>
+        <p id="address"> 145 Road, Cincinnati,Ohio. 45219 </p>
+        <div id="socials--list">
+          <a href="https://www.linkedin.com/in/sai-geethika-akkineni-b6881220b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BJUXdE8VcT2iy%2B8kk9C5C4Q%3D%3D" target="_blank">Linkedin</a>
+          <a href="https://github.com/SaiGeethikaAkkineni/waph-akkinesa" target="_blank">Github</a>
+      </div>
+    </div>  
+      <script> var shown = false;
+        function showhideEmail(){
+            if (shown){
+                document.getElementById('email').innerHTML = "Geethika's Email";
+                shown = false;
+              }
+              else
+              {
+                var myemail = "<a href = 'mailto:akkinesa"+ "@" +"mail.uc.edu'>akkinesa" + "@" + "mail.uc.edu</a>";
+                document.getElementById('email').innerHTML = myemail;
+                shown = true;
+              }  
+        } </script>
+    </div>      
+    <p>Currently enrolled in a Master's program in Information Technology at the University of Cincinnati, I am an enthusiastic individual eager to expand my understanding of cutting-edge technologies. I am actively seeking opportunities to further develop my skills and knowledge, with a strong desire to explore emerging trends in the field.</p>
+  </div>
+  <div class="waph text-center"><a href="syllabus.html"> Web Application Programming and Hacking Syllabus</a></div>
+
+</div>
+<div id="about">
+  <section class="section--page">
+    <h2>Education</h2>
+    <ul id="Education">
+        <li> University of Cincinnati, MSIT </li>
+        <li> JNTUH College of Engineering, Metallurgical Engineering</li>
+    </ul>
+</section>
+</div>
+<section class="section--page">
+  <h2>Technical Skills</h2>
+
+  <div id="wrapper--TECHNICAL SKILLS__items">
+      <div class="card--TECHNICAL SKILLS"><span><p>Languages: Java, HTML, CSS, ReactJS, Data Structure & Algorithms and Python </p></span></div>
+      <div class="card--TECHNICAL SKILLS"><span><p>Database:Oracle, MySQL</p></span></div>
+      <div class="card--TECHNICAL SKILLS"><span><p>Operating Systems:Windows,Linux </p></span></div>
+
+  </div>
+</section>
+
+<section id="work-experience-wrapper" class="section--page">
+  <h2>Work Experience</h2>
+
+  <div class="line-break"></div>
+  <div class="card--work-experience">
+      <strong> Application Development Associate | Accenture PVT LTD.</strong>
+      <p> 
+      <ul>
+          <li>Involved in working on SQL database and developing SQL Scripts as per the business requirements.</li>
+          <li>Working on SFDC, Service now, SQL Server Integration Services, Qlikview, SSRS tools.</li>
+      <ul>
+  
+  </div>
+
+      <strong>  Academic project | Supraja Technologies India PVT LTD.</strong>
+      <ul>
+          <li>Finding Vulnerabilities in web  applications: Using SQL lite, Burp suite, Nmap. This project is to find vulnerabilities by web application penetration testing where gathering, research& exploitation, reporting & recommendations and the remediation is done These tests are done to maintain secure software code development throughout its lifecycle &are done even specific requirements or lack of knowledge in cyber attack vectors are the main purpose.</li>
+      </ul>
+  </div>
+
+  <div class="line-break"></div>
+
+  <div class="card--work-experience">
+      <strong> Volunteer-Work</strong>
+      <ul>
+          <li>Involved in organizing for a Mega job fair conducted by the university in undergrad.</li>
+          <li>Worked as a Volunteer in an NGO called Aasya Foundation, India .</li>
+      </ul>
+  </div>
+
+  <div class="line-break"></div>
+
+
+</section>
+  
+<div class="container-fluid bg-3 text-center">    
+  <!--   <h3>Some of my Work</h3><br> -->
+ 
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div id="weather-info">
+        <!-- Weather icon will be displayed here -->
+        <p>Weather api</p>
+        <img id="weather-icon" src="" alt="Weather Icon">
+        <div id="weather-details"></div>
+      </div>
+      <script>
+        $(document).ready(function () {
+        var apiKey = 'a7588ce11fc94d95bf2a902885214c62'; 
+  
+        // Make a GET request to Weatherbit API for current weather data
+        $.get("https://api.weatherbit.io/v2.0/current", {
+            key: apiKey,
+            city: 'Cincinnati' // Example city, you can change it to any city you want
+        })
+            .done(function (data) {
+                // Check if the request was successful and data is available
+                if (data && data.data && data.data.length > 0) {
+                    var weatherData = data.data[0];
+                    var temperature = weatherData.temp;
+                    var description = weatherData.weather.description;
+                    var iconCode = weatherData.weather.icon;
+  
+                    // Construct the URL for the weather icon
+                    var iconUrl = "https://www.weatherbit.io/static/img/icons/" + iconCode + ".png";
+  
+                    // Display weather information on the webpage
+                    $("#weather-icon").attr("src", iconUrl);
+                    $("#weather-details").html("<p>Temperature: " + temperature + "°C</p>" +
+                        "<p>Description: " + description + "</p>");
+                } else {
+                    $("#weather-info").html("<p>Unable to fetch weather data.</p>");
+                }
+            })
+            .fail(function () {
+                $("#weather-info").html("<p>Error occurred while fetching weather data.</p>");
+            });
+    });
+  
+                        </script></div>
+    <div class="col-sm-3"> 
+      <div id="clock">
+        <p>analog-clock</p>
+        <canvas id="analog-clock" width="150" height="150" style="background-color:#999"></canvas>
+        <script src="https://waph-uc.github.io/clock.js"></script>
+        <script>
+        var canvas = document.getElementById("analog-clock");
+        var ctx = canvas.getContext("2d");
+        var radius = canvas.height / 2;
+        ctx.translate(radius, radius);
+        radius = radius * 0.90
+        setInterval(drawClock, 1000); 
+    
+    
+        function drawClock()
+        {
+          drawFace(ctx, radius);
+          drawNumbers(ctx, radius);
+          drawTime(ctx, radius);	
+        }
+        </script>
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Digital clock</p>
+      <div id="digital-clock"></div>
+	<script type="text/javascript">
+		function displayTime()
+		{
+			document.getElementById('digital-clock').innerHTML= "Current Time: " + new Date();
+		}
+		setInterval(displayTime,100);
+		
+
+	</script>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Page tracker</p>
+      <a href="https://info.flagcounter.com/IKVB"><img src="https://s11.flagcounter.com/count2/IKVB/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_249/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+    </div>
+    </div>
+    
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <div id="response"></div>
+  <script>
+    function JokeAPI(){
+
+// function for JOKE API
+function printResult(result) {
+    $("#response").html(encodeInput(result));
+   } 
+   function encodeInput(input){
+    const encodeData=document.createElement('div');
+    encodeData.innerText=input;
+    return encodeData.innerHTML;
+	}
+$.get("https://v2.jokeapi.dev/joke/Programming?type=single",function(result) {
+    console.log("from the joke api : "+ JSON.stringify(result));
+    if (result && result.joke){
+        var encodedJoke=encodeInput(result.joke);
+        $("#response").text("Programming joke of the day: "+encodedJoke);
+    }
+else{
+    $("#response").text("can't get the joke");
+
+}});
+}
+JokeAPI();
+setInterval(JokeAPI,60000);
+  </script>
+  <script>
+    // Function to set or retrieve the value of a cookie
+   function setCookie(name, value, days) {
+   var expires = "";
+   if (days) {
+   var date = new Date();
+   date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+   expires = "; expires=" + date.toUTCString();
+   }
+   document.cookie = name + "=" + (value || "") + expires + "; path=/";
+   }
+
+   function getCookie(name) {
+   var nameEQ = name + "=";
+   var ca = document.cookie.split(';');
+   for (var i = 0; i < ca.length; i++) {
+   var c = ca[i];
+   while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+   if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+   }
+   return null;
+   }
+
+   // Function to display the welcome message
+   function displayWelcomeMessage() {
+   var lastVisit = getCookie("lastVisit");
+   if (!lastVisit) {
+   // First-time visit
+   setCookie("lastVisit", new Date().toISOString(), 30); // Set cookie to expire in 30 days
+   alert("Welcome to my homepage!");
+   } else {
+   // Returning visit
+   var lastVisitDate = new Date(lastVisit);
+   alert("Welcome back! Your last visit was " + lastVisitDate.toLocaleString());
+   }
+   }
+
+   // Call the function when the page loads
+   window.onload = displayWelcomeMessage; 
+       
+       </script>
+</footer>
+
+</body>
+</html>
