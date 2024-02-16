@@ -6,7 +6,7 @@
 
 ## Student mail: akkinesa@mail.uc.edu
 
-![Geethika's headshot](img/headshot.png){width=150px height=150px}
+![Geethika's headshot](img/headshot.jpg){width=150px height=150px}
 
 # Individual Project 1 - Front-end Web Development 
 
@@ -36,14 +36,19 @@ Following guidance from a video lecture (Lecture 6), you expanded the website's 
 
 ####  b. Bootstrap
 
-The professor recommended incorporating Bootstrap into this assignment. To do so, you explored free Bootstrap themes online and selected one that suited your needs, modifying it accordingly. Additionally, you downloaded Bootstrap from the official website and integrated it into your HTML file. Furthermore, CSS was employed to enhance the design, including the addition of forms with divs and frames for images.
+The professor recommended incorporating Bootstrap into this assignment. To do so, I explored free Bootstrap themes that are available online and selected one that suited my needs, and I have modified it accordingly for my page. Additionally, I also downloaded Bootstrap from the official website and integrated it into my HTML file. Furthermore, I used CSS was to enhance the design as per my needs including the addition of forms with divs and frames for images.
 
 
 #### c. Javascript
 
 Expanding on the functionalities introduced in lab2, I incorporated several features into the project. This included displaying analog and digital clocks, as well as implementing show/hide functionality for email elements. Moreover, I integrated external APIs like JokesAPI and Weatherbit API directly into the index.html file.
 
-The JokesAPI was utilized to display a random joke every minute, adding an element of humor to the webpage. On the other hand, the Weatherbit API was employed to fetch and showcase real-time weather conditions for a specified location. To use the Weatherbit API effectively, a unique API key was generated for each user and included within the code.
+![show/hide functionality of email](img/SS6.png)(img/SS7.png)
+
+
+The JokesAPI was utilized to display a random joke every minute, adding an element of humor to the webpage. On the other hand, the Weatherbit API was employed to fetch and showcase real-time weather conditions for a specified location where I choose Cincinnati. To use the Weatherbit API effectively, a unique API key was generated for each user and included within the code.
+
+![weatherAPI, Joke,Digitalclock and Analog clock](img/SS5.png)
 
 Additionally, I integrated the Flag Counter website into the index.html, which dynamically adds a new country flag whenever a new visitor views the page. This feature serves to visually represent the diversity of visitors to the website.
 
