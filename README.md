@@ -43,7 +43,9 @@ The professor recommended incorporating Bootstrap into this assignment. To do so
 
 Expanding on the functionalities introduced in lab2, I incorporated several features into the project. This included displaying analog and digital clocks, as well as implementing show/hide functionality for email elements. Moreover, I integrated external APIs like JokesAPI and Weatherbit API directly into the index.html file.
 
-![show/hide functionality of email](img/SS6.png)(img/SS7.png)
+![Show functionality of email](img/SS6.png)
+
+![Hide functionality of email](img/SS7.png)
 
 
 The JokesAPI was utilized to display a random joke every minute, adding an element of humor to the webpage. On the other hand, the Weatherbit API was employed to fetch and showcase real-time weather conditions for a specified location where I choose Cincinnati. To use the Weatherbit API effectively, a unique API key was generated for each user and included within the code.
