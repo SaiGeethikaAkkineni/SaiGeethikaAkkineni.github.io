@@ -6,7 +6,7 @@
 
 ## Student mail: akkinesa@mail.uc.edu
 
-![Geethika's headshot](img/headshot.png){width=150px height=150px}
+![Geethika's headshot](img/headshot.png){width=10px height=10px}
 
 # Individual Project 1 - Front-end Web Development 
 
